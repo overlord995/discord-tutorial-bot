@@ -1,7 +1,7 @@
 const { MessageAttachment } = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
-  let user =
+  let E =
     message.mentions.users.first() ||
     client.users.cache.get(args[0]) ||
     match(args.join(" ").toLowerCase(), message.guild) ||
